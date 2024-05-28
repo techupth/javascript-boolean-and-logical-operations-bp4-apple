@@ -1,10 +1,9 @@
-let isOver18 = Boolean(1);
-let hasCriminalBlacklist = Boolean(1);
-
-let isAllow = Boolean(1);
+// Exercise #1: Event Conditions
 
 // Start coding here
-let James = isOver18 && !hasCriminalBlacklist
-isAllow = isOver18 && !hasCriminalBlacklist
+let isOver18 = false;
+let hasCriminalBlacklist = false;
+
+let isAllow = isOver18 && !hasCriminalBlacklist;
 
 console.log(isAllow);
